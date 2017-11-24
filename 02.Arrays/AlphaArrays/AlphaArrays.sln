@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FillTheMatrix", "AlphaArrays\FillTheMatrix.csproj", "{D1421EAD-E960-48A0-ACC0-D2BCB8D2E835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BishopPathFinder", "BishopPathFinder\BishopPathFinder.csproj", "{EFDBB386-1E75-418B-A7A2-D60D6390F6A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1421EAD-E960-48A0-ACC0-D2BCB8D2E835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1421EAD-E960-48A0-ACC0-D2BCB8D2E835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1421EAD-E960-48A0-ACC0-D2BCB8D2E835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1421EAD-E960-48A0-ACC0-D2BCB8D2E835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFDBB386-1E75-418B-A7A2-D60D6390F6A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDBB386-1E75-418B-A7A2-D60D6390F6A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDBB386-1E75-418B-A7A2-D60D6390F6A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDBB386-1E75-418B-A7A2-D60D6390F6A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D70EEBB-5AED-46EE-8827-7DAB591892FF}
+	EndGlobalSection
+EndGlobal
