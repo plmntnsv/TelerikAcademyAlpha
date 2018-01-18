@@ -74,9 +74,72 @@ namespace Guards
             {
                 Console.WriteLine(bestTime);
             }
+
+            bestTime = int.MaxValue;
+
+            Iterative();
+
+            if (bestTime == int.MaxValue)
+            {
+                Console.WriteLine("Meow");
+            }
+            else
+            {
+                Console.WriteLine(bestTime);
+            }
         }
 
-        // WORKS BUT SLOW
+        static void Iterative()
+        {
+            var stack = new Stack<int[]>();
+            stack.Push(new int[] { 0, 0, 0 });
+
+            while (stack.Count > 0)
+            {
+                var cell = stack.Pop();
+                var row = cell[0];
+                var col = cell[1];
+                var time = cell[2];
+
+                bool outside = row < 0 || rows - 1 < row || col < 0 || cols - 1 < col;
+
+                if (outside)
+                {
+                    continue;
+                }
+
+                bool exitCell = row == rows - 1 && col == cols - 1;
+
+                if (exitCell)
+                {
+                    time++;
+                    if (time < bestTime)
+                    {
+                        bestTime = time;
+                    }
+
+                    continue;
+                }
+
+                bool guardCell = matrix[row, col] < 0;
+
+                if (guardCell)
+                {
+                    continue;
+                }
+
+                time += matrix[row, col] + 1;
+
+                if (time > bestTime)
+                {
+                    continue;
+                }
+
+                stack.Push(new int[] { row + 1, col, time });
+                stack.Push(new int[] { row, col + 1, time });
+            }
+        }
+
         static void DFS(int row, int col, int time)
         {
             bool outside = row < 0 || rows - 1 < row || col < 0 || cols - 1 < col;
