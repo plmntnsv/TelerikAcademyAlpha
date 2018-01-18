@@ -76,6 +76,7 @@ namespace Guards
             }
         }
 
+        // WORKS BUT SLOW
         static void DFS(int row, int col, int time)
         {
             bool outside = row < 0 || rows - 1 < row || col < 0 || cols - 1 < col;
@@ -105,6 +106,11 @@ namespace Guards
             }
 
             time += matrix[row, col] + 1;
+
+            if (time > bestTime)
+            {
+                return;
+            }
 
             DFS(row, col + 1, time);
             DFS(row + 1, col, time);
