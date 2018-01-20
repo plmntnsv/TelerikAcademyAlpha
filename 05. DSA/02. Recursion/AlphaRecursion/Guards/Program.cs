@@ -59,8 +59,6 @@ namespace Guards
                         }
                         matrix[guardRow, guardCol + 1] = 2;
                         break;
-                    default:
-                        break;
                 }
             }
 
