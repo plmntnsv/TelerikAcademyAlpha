@@ -76,8 +76,6 @@ namespace Slogan
                     impossibleSlogans.Add(slogan);
                 }
             }
-
-
         }
     }
 }
