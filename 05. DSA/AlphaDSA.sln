@@ -33,7 +33,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermsS", "PermsS\PermsS.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlusOneMultipleOne", "PlusOneMultipleOne\PlusOneMultipleOne.csproj", "{857B66FB-1A25-494F-B984-E3D6D8B6FC84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathToOne", "PathToOne\PathToOne.csproj", "{A3E1B7FC-0850-415D-BF93-F0579E254DD2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathToOneRecursive", "PathToOne\PathToOneRecursive.csproj", "{A3E1B7FC-0850-415D-BF93-F0579E254DD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PathToOneIterative", "PathToOneIterative\PathToOneIterative.csproj", "{0A9ECC80-0E58-4ABC-8096-4CC883507FA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{A3E1B7FC-0850-415D-BF93-F0579E254DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3E1B7FC-0850-415D-BF93-F0579E254DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3E1B7FC-0850-415D-BF93-F0579E254DD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9ECC80-0E58-4ABC-8096-4CC883507FA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9ECC80-0E58-4ABC-8096-4CC883507FA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9ECC80-0E58-4ABC-8096-4CC883507FA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9ECC80-0E58-4ABC-8096-4CC883507FA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
